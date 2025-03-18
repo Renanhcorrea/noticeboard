@@ -42,9 +42,11 @@ A CRUD system for managing announcements, built with Spring Boot for the back-en
    cd <back-end directory>
 
 2. Build the project:
+   ```bash
    ./mvnw clean install
 
 3. Run the project:
+   ```bash
    ./mvnw spring-boot:run
 
 4. The API will be available at http://localhost:8080/notice
@@ -52,13 +54,16 @@ A CRUD system for managing announcements, built with Spring Boot for the back-en
 ### Front-end (React)
 
 1. Clone the repository:
+   ```bash
    git clone <repository URL>
    cd <front-end directory>
 
 2. Install dependencies:
+   ```bash
    npm install
 
 3. Run the project:
+   ```bash
    npm start
 
 4. The front-end will be available at http://localhost:3000
