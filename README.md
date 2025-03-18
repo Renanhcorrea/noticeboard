@@ -38,8 +38,8 @@ A CRUD system for managing announcements, built with Spring Boot for the back-en
 
 1. Clone the repository:
    ```bash
-   git clone <repository URL>
-   cd <back-end directory>
+   git clone https://github.com/Renanhcorrea/noticeboard.git
+   cd noticeboard
 
 2. Build the project:
    ```bash
@@ -50,20 +50,3 @@ A CRUD system for managing announcements, built with Spring Boot for the back-en
    ./mvnw spring-boot:run
 
 4. The API will be available at http://localhost:8080/notice
-
-### Front-end (React)
-
-1. Clone the repository:
-   ```bash
-   git clone <repository URL>
-   cd <front-end directory>
-
-2. Install dependencies:
-   ```bash
-   npm install
-
-3. Run the project:
-   ```bash
-   npm start
-
-4. The front-end will be available at http://localhost:3000
